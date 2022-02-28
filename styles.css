@@ -5,4 +5,140 @@
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+header nav {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ ul {
+     margin: 0%;
+     padding: 0%;
+     list-style-type: none;
+     display: flex;
+     gap: 20px;
+ }
+
+ button {
+     background-color: #3882f6;
+     border-radius: 10px;
+     border: none;
+     color: #f9faf8;
+     padding: 10px;
+     font-weight: 900;
+ }
+
+ button:hover {
+     background-color: #0862f3;
+ }
+
+ .hero {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 1em;
+     background-color: #1f2937;
+ }
+
+ .left-text {
+     flex: 0 1 400px;
+ }
+
+ .left-text h1 {
+     color: #f9faf8;
+     font-size: 48px;
+ }
+ 
+ .left-text p {
+     color: #e5e7eb;
+     font-size: 18px;
+     margin-bottom: 15px;
+ }
+
+ .right-image {
+    
+ }
+
+ main {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+
+ .cards {
+     display: flex;
+     margin-top: 40px;
+     gap: 3em;
+
+ }
+
+ .card {
+    
+ }
+
+ .illustration {
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 160px;
+ }
+
+ .text {
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .quote-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding: 2.5em;
+     background-color:#e5e7eb;
+     color: #1f2937;
+     font-size: 36px;
+     font-style: italic;
+ }
+
+ .action-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 60px;
+ }
+
+ .callToAction {
+     background-color: #0862f3;
+     color: #f9faf8;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 900px;
+     padding: 1.5em;
+     border-radius: 10px;
+     
+ }
+
+ .callToAction button {
+     border: solid #f9faf8;
+     padding: 5px 25px 5px 25px;
+ }
